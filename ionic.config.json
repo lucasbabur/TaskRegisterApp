@@ -1,0 +1,7 @@
+{
+  "name": "Task Register App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

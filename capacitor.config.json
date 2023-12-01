@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.taskRegisterApp",
+  "appName": "taskRegisterApp",
+  "bundledWebRuntime": false,
+  "npmClient": "pnpm",
+  "webDir": "out",
+  "cordova": {}
+}
