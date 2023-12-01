@@ -86,7 +86,7 @@ export function TaskRegistrationForm(props: TaskRegistrationFormProps) {
 
   // Signals
   let isSubmitButtonDisabled = useSignal<boolean | undefined>(props.isDisabled);
-  let pageNumber = useSignal<number>(2);
+  let pageNumber = useSignal<number>(1);
 
   // Props
   let { uid, afterSubmitFunction } = props;
