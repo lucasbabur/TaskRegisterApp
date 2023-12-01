@@ -1,38 +1,20 @@
-# SampleApp Codebase
+# TaskRegisterApp Codebase
 
-## Introduction
+This is a web application I created to register and measure my own productivity. Initially, I didn't even planned on showcasing this, but I believe it is polished enough to do so.
 
-SampleApp is a web application boilerplate built using NextJS, ChakraUI, Yup, Formik, Preact Signals, and Firebase. It's designed to offer the fastest development experience possible.
-
-Live Demo: [SampleApp (sampleapp-xi.vercel.app)](https://sampleapp-xi.vercel.app/)
+Live Demo: [task-register-app.vercel.app](https://task-register-app.vercel.app/)
 
 ## Features
 
-- **Home Page Components** : A variety of components such as Hero, Navbar, Footer, Schedule, Sponsors, and WhyComponent, each with unique functionalities and styles.
-- **Form Handling** : Utilizes Formik for managing form states, Yup for validation schemas, and custom field components to handle different input types.
-- **Firebase Integration** : Authentication and Firestore database interactions are handled with Firebase services.
-- **Theming** : Customizable theme configurations with ChakraUI for a consistent and modifiable design system.
-- **Sidebar Navigation** : Dynamic sidebar navigation in the application, leveraging React context for state management.
-- **Optimized Landing Page:** The initial landing page has almost perfect lighthouse scores in performance, SEO, accessibility and best practices.
+Note: Each feature of this application was developed with my personal requirements in mind. Originally created solely for my use, I've now refined it to a level that I feel confident sharing it on my GitHub.
 
-## Directory Structure
-
-- `src/`: Source files for the application.
-  - `backEnd/`: Backend-related configurations and schema definitions.
-    - `middlewares/`: Useful general use middlewares
-    - `schemas/`: Schemas to validate data
-  - `components/`: Reusable components for the application.
-  - `config/`: Configuration files for the application. Differently from most applications, I also include here the instances of the general abstraction components in the components folder.
-  - `firebase/`: Firebase configuration and context setup.
-  - `pages/`: Next.js pages for routing.
-  - `theme/`: Custom theme configurations for ChakraUI.
-
-## Key Components
-
-1. **Form Components**: Custom input fields, radio buttons, and selectors with integrated validation -- designed to be extremely fast to develop and change.
-2. **Sidebar**: A dynamic sidebar with context-based state management.
-3. **Firebase Context**: Context API for managing Firebase state across the app.
-4. **API Routing**: Configured Next.js API routes with various middlewares.
+- **Task Registration** : This is the cornerstone of the app. Users can fill in tasks using a form that includes specific questions crucial for measuring productivity.
+- **Productivity Scoring** : Each task contributes to a daily productivity score. This score reflects the peak productivity achievable with planned tasks over a 16-hour period.
+- **Firebase Integration** : The application leverages Firebase for data handling. The database design is flexible, facilitating efficient task queries and graphical data representation.
+- **Graphical Insights** : The app includes graphs to visually represent productivity and other user-defined key metrics.
+- **Task Monitoring** : This feature enables tracking of specific task types. Tasks are tagged in the database, allowing for targeted queries and pattern analysis, particularly useful for consistent activities like exercise.
+- **Productivity Analysis** : This section assists in evaluating daily productivity. It features a graph displaying three main metrics: productivity score, time spent seated/standing, and adherence to planned task scheduling.
+- **Mobile Compatibility** : Though not present in this repository due to .gitignore constraints, the application is configured for mobile use, as indicated in the next configuration file and the capacitor configuration.
 
 ## Getting Started
 
@@ -42,6 +24,6 @@ Live Demo: [SampleApp (sampleapp-xi.vercel.app)](https://sampleapp-xi.vercel.app
 
 ## To-do
 
-1. **Add support to light theme**
-2. **Improve the design of the landing page**
-3. **Add Analytics**
+1. **AI-Powered Recommendations** : Integrate AI to provide suggestions based on completed tasks.
+2. **Procedures Tab** : A proposed feature to include a repository of protocols for different situational responses, inspired by the developer's personal task app.
+3. **Code Optimization** : Identify and remove any superfluous or redundant code segments.
