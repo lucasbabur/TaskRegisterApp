@@ -1,10 +1,10 @@
 export const SEO = {
-  title: "SampleApp",
+  title: "TaskRegisterApp",
   description: "A boilerplate with TypeScript, ESLint, Prettier, ChakraUI...",
 };
 
 export const LogoObject = {
-  name: "SampleApp",
+  name: "TaskRegisterApp",
   heroImagePath: "/static/images/HeroImage.jpg",
   imagePath: "/static/images/SampleSVG.svg",
   favicon: "image/favicon-16x16.png",
